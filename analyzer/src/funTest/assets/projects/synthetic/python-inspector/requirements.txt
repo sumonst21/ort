@@ -4,4 +4,4 @@ itsdangerous<0.25
 license-expression ; platform_system == "Windows"
 Jinja2==2.11.3
 MarkupSafe==1.0
-Werkzeug==0.15.3
+Werkzeug==3.0.1
