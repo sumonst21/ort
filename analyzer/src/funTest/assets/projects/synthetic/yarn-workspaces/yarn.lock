@@ -3,32 +3,34 @@
 
 
 "@here/harp-fetch@^0.11.0":
-  "integrity" "sha512-Yp+3VQdDR9r66MRJ4zSSu6XemnkAz9ahz2e+RRWhdoM4OHih8zvmVbSH1H4WDCW0qkZM2W8z8c66jKPCJoHAPw=="
-  "resolved" "https://registry.npmjs.org/@here/harp-fetch/-/harp-fetch-0.11.0.tgz"
-  "version" "0.11.0"
+  version "0.11.0"
+  resolved "https://registry.npmjs.org/@here/harp-fetch/-/harp-fetch-0.11.0.tgz"
   dependencies:
-    "node-fetch" "^2.2.0"
+    node-fetch "^2.2.0"
 
 "@here/harp-fetch@^0.3.6":
-  "integrity" "sha512-KtpnHQXymwfwvYWVqXh5ZV16SXLW7n8hQb1wZYDbcm+5OX/LzYWmwEzEKzxluaNxbo2vt/hM/jeqDlSEGMDelA=="
-  "resolved" "https://registry.npmjs.org/@here/harp-fetch/-/harp-fetch-0.3.6.tgz"
-  "version" "0.3.6"
+  version "0.3.6"
+  resolved "https://registry.npmjs.org/@here/harp-fetch/-/harp-fetch-0.3.6.tgz"
   dependencies:
-    "node-fetch" "^2.2.0"
+    node-fetch "^2.2.0"
 
-"@scope1/pkg1@file:/home/sse1be/Development/GitHub/oss-review-toolkit/ort/analyzer/src/funTest/assets/projects/synthetic/yarn-workspaces/packages/pkg1":
-  "resolved" "file:packages/pkg1"
-  "version" "1.0.0"
+node-fetch@^2.2.0:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.7.0.tgz#d0f0fa6e3e2dc1d27efcd8ad99d550bda94d187d"
   dependencies:
-    "@here/harp-fetch" "^0.11.0"
+    whatwg-url "^5.0.0"
 
-"node-fetch@^2.2.0":
-  "integrity" "sha512-8dG4H5ujfvFiqDmVu9fQ5bOHUC15JMjMY/Zumv26oOvvVJjM67KF8koCWIabKQ1GJIa9r2mMZscBq/TbdOcmNA=="
-  "resolved" "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.0.tgz"
-  "version" "2.6.0"
+tr46@~0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/tr46/-/tr46-0.0.3.tgz#8184fd347dac9cdc185992f3a6622e14b9d9ab6a"
 
-"pkg2@file:/home/sse1be/Development/GitHub/oss-review-toolkit/ort/analyzer/src/funTest/assets/projects/synthetic/yarn-workspaces/packages/pkg2":
-  "resolved" "file:packages/pkg2"
-  "version" "1.0.0"
+webidl-conversions@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-3.0.1.tgz#24534275e2a7bc6be7bc86611cc16ae0a5654871"
+
+whatwg-url@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/whatwg-url/-/whatwg-url-5.0.0.tgz#966454e8765462e37644d3626f6742ce8b70965d"
   dependencies:
-    "@here/harp-fetch" "^0.3.6"
+    tr46 "~0.0.3"
+    webidl-conversions "^3.0.0"
