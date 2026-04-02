@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     test-project (1.0.0)
-      rack (>= 2.0.8, < 2.3.0)
+      rack (>= 2.0.8, < 3.3.0)
       signet (~> 0.8.1)
 
 GEM
@@ -17,7 +17,7 @@ GEM
     multi_json (1.14.1)
     multipart-post (2.1.1)
     public_suffix (4.0.5)
-    rack (2.2.3)
+    rack (2.2.23)
     rspec (3.7.0)
       rspec-core (~> 3.7.0)
       rspec-expectations (~> 3.7.0)
@@ -39,7 +39,7 @@ GEM
 
 PLATFORMS
   ruby
-  x64-mingw32
+  x64-mingw-ucrt
 
 DEPENDENCIES
   rspec
